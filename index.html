@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnaziul Tigheci</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Hentaigana:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+    
+
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo2.jpg" style="width: 60px; position: absolute; top: 10px; left: 10px;">
+            </a>
+<div class="nav-links" id="navLinks">
+    <i class="fas fa-xmark close-menu" onclick="hideMenu()"></i>
+<ul>
+<li><a href="#acasa">ACASA</a></li>
+<li><a href="#despre">DESPRE</a></li>
+<li><a href="#contact">CONTACT</a></li>
+<li><a href="#galerie">GALERIE</a></li>
+<li><a href="#orar">ORAR</a></li>
+
+</ul>
+</div>   
+
+<i class="fa-solid fa-bars open-menu" onclick="showMenu()"></i> 
+ </nav>
+ <div class="text-box">
+<h1>Gimnaziul Tigheci</h1>
+<p>Gimnaziul Tigheci este o instituție educațională de tradiție, 
+    dedicată formării 
+    tinerelor talente printr-un
+     <br>învățământ de calitate, 
+    care pune accent pe dezvoltarea
+     cunoștințelor și abilităților elevilor.</p>
+    <a href="#" class="hero-btn">Vino să descoperi un loc dedicat învățăturii și dezvoltării tale!</a>
+ </div>
+    </section>
+    <!--DESPRE-->
+<section class="despre" id="despre">
+   <h1>Gimnaziul Tigheci</h1>
+   <p style="color:darkslategrey;">Ce trebuie sa stii despre noi:</p>
+
+
+   <div class="row"> 
+    <div class="despre-col">
+    <h3>Scoala medie Gimnaziul Tigheci</h3>
+    <p>  a fost reorganizata în 1962 ca școală de opt ani,
+         iar prima promoție a absolvit în 1963. Directorul inițial a fost Ivanov Nicolae,
+          iar adjuncta sa, Beleuță Ecaterina. Activitatea s-a desfășurat în condiții dificile, 
+          în mai multe clădiri improvizate, până la inaugurarea noii clădiri în 1964.
+        </p> 
+  </div>
+  <div class="despre-col">
+    <h3>Noua școală</h3>
+    <p> prevăzută pentru 280 de elevi, a găzduit deja 400,
+         funcționând în două schimburi. Inițial, încălzirea se făcea cu sobe metalice,
+          iar sistemul central a devenit operațional în noiembrie 1964. În următorii ani,
+           s-au amenajat săli, terenul sportiv și livada școlii.
+
+        </p> 
+  </div>
+  <div class="despre-col">
+    <h3>În 2014</h3>
+    <p> la aniversarea a 50 de ani de la inaugurarea clădirii actuale,
+         profesorii Beleuță E.Gr. și Beleuță O.N. au fost declarați cetățeni de onoare ai satului. 
+         De asemenea, în fața școlii a fost ridicat 
+        un monument în memoria consătenilor căzuți în Al Doilea Război Mondial, unde anual se desfășoară ceremonii de comemorare.
+        </p> 
+        <div>
+        </div> 
+    </div> 
+    </section> 
+    
+    <!--CONTACT-->
+    <section class="contact" id="contact">
+        <h1>Contactele Școlii</h1>
+        <p class="contact-heading">Cum să ne găsești?</p>
+        <div class="row">
+            <!-- Harta -->
+            <div class="contact-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2752.3044330377866!2d28.366631799999997!3d46.383186699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9e2a1c1167769%3A0x825b23d6926f8157!2sGimnaziul%20Tigheci!5e0!3m2!1sro!2s!4v1739358741728!5m2!1sro!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-col">
+                <h2>Hai să facem împreună pași spre viitor!</h2>
+                <h2>_____________________</h2>
+            
+                <p>Dacă ai întrebări sau vrei să afli mai multe despre Gimnaziul Tigheci, nu ezita să ne contactezi. Fie că vrei să te înscrii, să afli detalii despre activitățile noastre sau să împărtășești idei și sugestii, suntem aici pentru tine!</p>
+                <p>Încrederea și colaborarea noastră sunt cheia succesului tău!</p>
+                <h2>_____________________</h2>
+                <h3>Informații de Contact</h3>
+            <ul>
+                    <li><strong>Telefon:</strong> 079800315</li>
+                    <li><strong>Email:</strong> butnaruelena0603@gmail.com</li>
+               </ul>
+            </div>
+        </div>
+    </section>
+ <!--Java Sript-->
+
+ <script>
+  
+  document.addEventListener('DOMContentLoaded', function(){
+    var navLinks = document.getElementById("navLinks");
+
+    window.showMenu = function() {
+        navLinks.style.right = "0";
+        document.querySelector('.close-menu').style.display = "block";
+        document.querySelector('.open-menu').style.display = "none";
+    }
+
+    window.hideMenu = function() {
+        navLinks.style.right = "-250px";
+        document.querySelector('.close-menu').style.display = "none";
+        document.querySelector('.open-menu').style.display = "block";
+    }
+});
+ </script>
+ <!----Galerie---->
+<section class="galerie" id="galerie"> 
+
+    <section class="galerie">
+        <h1>Momente memorabile</h1>
+        <h4>Evenimentele care ne definesc tradiția și spiritul școlar</h4>
+        <div class="galerie-container">
+            <div class="galerie-item">
+                <img src="images/Panou dedicat absolventilor.jpg" alt="Panou dedicat absolventilor">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Ziua profesiilor.jpg" alt="Ziua profesiilor">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Ziua limbilor.jpg" alt="Ziua limbilor">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Excursie organizata de cadrul didactic.jpg" alt="Excursie organizata de cadrul didactic">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Voluntariat.jpg" alt="Voluntariat">
+            </div>
+            <div class="galerie-item">
+                <img src="images/eveniment.jpg" alt="eveniment">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Cadrul didactic.jpg" alt="Cadrul didactic">
+            </div>
+            <div class="galerie-item">
+                <img src="images/Mihai Eminescu.jpg" alt="Mihai Eminescu" >
+            </div>
+            <div class="galerie-item">
+                <img src="images/voluntariat2.jpg" alt="voluntariat2">
+            </div>
+        </div>
+    </section>
+</section>
+<!---Orarul sunetelor-->
+<section class="orar" id="orar">
+    <h1>Orarul Lecțiilor</h1>
+    <div class="orar-container">
+        <img src="images/Orar.png" alt="Orarul Gimnaziului Tigheci">
+    </div>
+</section>
+<section class="cta">
+    <h1>Vino alaturi de noi pentru<br>un viitor prosper!</h1>
+    <a href="" class="hero-btn">Contactează-ne</a>
+</section>
+<!---Subsol-->
+<section class="footer">
+<h3>Despre noi</h3>
+<p class="culoare">Gimnaziul Tigheci este o instituție educațională dedicată formării elevilor<br>printr-un învățământ de calitate.</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-regular fa-heart"></i>
+    <i class="fa-solid fa-phone-volume"></i>
+    <p class="culoare">Facut de Samira si Daniel</p>
+</div>
+</section>
+</body>
+</html>
